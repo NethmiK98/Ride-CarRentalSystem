@@ -1,0 +1,72 @@
+.navbar {
+    background-color: #F3F3F3 !important;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    box-shadow: none;
+
+    .fas {
+        color: #000000 !important;
+    }
+
+    .btn {
+        text-transform: none !important;
+        font-size: 14px;
+
+    }
+
+    .nav-link {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .navs {
+        align-items: center;
+    }
+
+    .register {
+        background-color: #555ade;
+        color: #ffffff;
+        font-size: 16px;
+        padding: 6px 20px;
+        font-weight: 400 !important;
+        box-shadow: none;
+    }
+
+    .login {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    .username {
+        color: #00000080;
+        padding-right: 10px;
+    }
+
+    .vr {
+        height: 30px;
+        background-color: #000000dd !important;
+        margin: 0px 10px;
+        width: 1px;
+        align-self: center;
+    }
+
+    .rounded-circle{
+        aspect-ratio: 1/1;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .navbar {
+        .login {
+            margin-left: 0px !important;
+            padding-left: 0px !important;
+        }
+
+
+        .register {
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+    }
+}

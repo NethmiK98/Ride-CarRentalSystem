@@ -1,0 +1,58 @@
+.rent {
+    h2 {
+        
+        font-size: 1.2em;
+        text-align: center;
+        line-height: 1.4;
+        font-weight: 400 !important;
+        color: #EF233C;
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 2.8em;
+        line-height: 1.4;
+        font-weight: 400 !important;
+        color: #000000;
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 50px;
+    
+    }
+
+    .card-img-top{
+        width: 350px;
+        height: 280px;
+        object-fit: cover;
+    }
+    
+    .search-card {
+        width: 100%;
+        box-shadow: none;
+        margin-bottom: 20px;
+
+        input {
+            margin: 14px;
+            border-color: #00000020;
+            background-color: #FAFCFD;
+            border-radius: 4px;
+            padding: 18px 14px !important;
+        }
+
+        button {
+            margin: 14px 14px 14px 0px;
+            background-color: #555ade;
+            color: #ffffff;
+            text-transform: none !important;
+            font-size: 16px;
+            padding: 11px 24px;
+            box-shadow: none;
+            font-weight: 300;
+
+            .fas {
+                margin-right: 10px !important;
+            }
+        }
+    }
+}
+

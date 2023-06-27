@@ -1,0 +1,48 @@
+.footer {
+    padding-top: 80px;
+    background-color: #033270;
+    width: 100%;
+
+    p {
+        margin-top: 20px;
+        font-size: 1em;
+        color: #ffffff88;
+    }
+
+    a {
+        color: #ffffff !important;
+        padding-bottom: 12px;
+    }
+
+    i {
+        color: #ffffff;
+    }
+
+    .contact {
+        margin-top: 00px;
+        font-size: 1em;
+        color: #ffffffbb;
+    }
+
+    .contact-data {
+        padding-bottom: 14px;
+    }
+
+    .copyright {
+        margin-top: 60px;
+        background-color: #022656;
+
+        .mydata {
+            text-align: right;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .footer {
+        .contact-section {
+            margin-top: 40px;
+        }
+    }
+
+}

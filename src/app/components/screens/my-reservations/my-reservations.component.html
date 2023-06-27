@@ -1,0 +1,15 @@
+<ul class="d-flex flex-wrap">
+    <li class="list-item" *ngFor="let reservation of reservations; let i = index">
+        <img src="{{reservation.vehicle.image}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{reservation.vehicle.name}}</h5>
+            <p>${{reservation.vehicle.price}}/Day</p>
+        </div>
+        <p>Pickup Location: {{reservation.reservation.pickUpLocation}}</p>
+        <p>Pickup Time: {{reservation.reservation.pickUpTime}}</p>
+        <p>Dropoff Location: {{reservation.reservation.dropOffLocation}}</p>
+        <p>Dropoff Time:{{reservation.reservation.dropOffTime}}</p>
+        <p>Total Price: {{reservation.reservation.totalPrice}}</p>
+        <p>Payment Method: {{reservation.reservation.paymentMethod}}</p>
+    </li>
+</ul>
